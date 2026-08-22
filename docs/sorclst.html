@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>dani source website</title>
+    <style>
+    body{
+        
+        align-items: center;
+        justify-content: center;
+        background-color:#060D1A;
+        
+        min-height: 100vh;
+        margin: 0;
+    }
+    .pageboreder{
+        
+        padding: 10px;
+        padding-top: 30px;
+        flex-direction: column;
+        width: 95%;
+        height: 98%;
+        justify-content: center;
+        align-items: center;
+        
+        border: 5px solid blue;
+        border-radius: 34px;
+        box-shadow: 2px 40px 100px 30px rgba(20,20,109,3);
+        
+    }
+    .pageup{
+        
+        position: sticky;
+        top: 0;
+        
+        width: 98%;
+        height: 70px;
+        backdrop-filter: blur(9px);
+        background-color: rgba(0,0,0,0.3);
+        border: 5px solid #d6f1ff;
+        border-radius: 90px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(167,205,219,0.8);
+    }
+    .contents{
+        text-align: center;
+        width: calc(96% - 20px);
+        height: auto;
+        padding: 10px;
+        margin: 10px auto;
+        border: 3px solid red ;
+        border-radius: 9px;
+        box-shadow:0 10px 10px 10px rgba(79,19,19,0.7) ;
+    }
+    .downbt{
+        width: 110px;
+        height: 50px;
+        background-color: white;
+        border:2px solid gray;
+        box-shadow: 0px 7px 50px 5px rgba(245,245,245,0.8);
+        border-radius: 8px;
+    }
+    
+    
+    .navicn{
+        width: auto;
+        height: 60px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    .numrain{
+        position: absolute;
+        font-size: 30px;
+        color: #34ccfa;
+        box-shadow: 0px 0px 20px 10px rgba(0,108,217,0.7) ;
+        animation: fall 5s linear infinite;
+    }
+    @keyframes fall{
+        0% {top: -10%; }
+        100% {top: 110%; }
+    }
+    .numrain:nth-child(1){left:10%; animation-delay:0s;}
+    .numrain:nth-child(2){left:30%; animation-delay:1s;}
+    .numrain:nth-child(3){left:20%; animation-delay:2s;}
+    .numrain:nth-child(4){left:60%; animation-delay:3s;}
+    .numrain:nth-child(5){left:50%; animation-delay:4s;}
+    .numrain:nth-child(6){left:80%; animation-delay:5s;}
+    
+    </style>
+</head>
+<body>
+    <div class="numrain">1</div>
+    <div class="numrain">0</div>
+    <div class="numrain">1</div>
+    <div class="numrain">1</div>
+    <div class="numrain">0</div>
+    <div class="numrain">1</div>
+    
+    
+    <div class="pageup">
+        
+        <a href="index.html"><img src="dansrcpc.png" alt="dani sorce page icon" class="navicn"></a>
+        
+    </div>
+    
+    
+    
+    
+    
+    <div class="pageboreder">
+        <b style="font-size:36px;color:white;">welcome to</b>
+        <b style="font-size:46px;color:blue;"> Sources page</b>
+        
+        /* the site contents*/
+        <div class="contents">
+            <h3 style=background-color:red;font-size:19>the source update</h3>
+            <div class="downbt">
+                <a href="null" download>press to download</a>
+            </div>
+        </div>
+    
+    
+        <div class="contents">
+            <h5 style=background-color:red;font-size:19>sorce page test txt</h5>
+            <div class="downbt">
+            <a href="null" download>press to download</a>
+            </div>
+        </div>
+            
+        <div class="contents">
+            <h3 style=background-color:red;font-size:19>this is just a simple and clean page and there is no files</h3>
+            <div class="downbt">
+            <a href="null" download>press to download</a>
+            </div>
+        </div>
+            
+        <div class="contents">
+            <h3 style=background-color:red;font-size:19>please do not play with download bottons :)</h3>
+            <div class="downbt">
+            <a href="null" download>press to download</a>
+            </div>
+        </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+    </div>
+    
+
+</body>
+</html>
